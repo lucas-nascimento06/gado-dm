@@ -1,0 +1,78 @@
+{
+  "_arquivo": "bot/codigos/handlers/command/gadoConfig.json",
+  "titulo": "🐂 MEDIDOR DE GADO 🐂",
+  "barraTamanho": 10,
+  "blocoCheio": "🟥",
+  "blocoVazio": "⬜",
+  "classificacoes": [
+    {
+      "min": 0,
+      "max": 20,
+      "nome": "Anti-Gado",
+      "emoji": "😎",
+      "cor": "🟢"
+    },
+    {
+      "min": 21,
+      "max": 40,
+      "nome": "Gado Iniciante",
+      "emoji": "🐄",
+      "cor": "🔵"
+    },
+    {
+      "min": 41,
+      "max": 60,
+      "nome": "Gado Moderado",
+      "emoji": "🐂",
+      "cor": "🟡"
+    },
+    {
+      "min": 61,
+      "max": 80,
+      "nome": "Gado Avançado",
+      "emoji": "🤠",
+      "cor": "🟠"
+    },
+    {
+      "min": 81,
+      "max": 100,
+      "nome": "Gado Profissional",
+      "emoji": "💘",
+      "cor": "🔴"
+    }
+  ],
+  "frasesPorNivel": {
+    "Anti-Gado": [
+      { "emoji": "😎", "texto": "Não cai em papo de cantada." },
+      { "emoji": "❄️", "texto": "Sangue frio até com paquera." },
+      { "emoji": "🚫", "texto": "Demora horas pra responder de propósito." }
+    ],
+    "Gado Iniciante": [
+      { "emoji": "👀", "texto": "Já visualiza rápido, mas segura a resposta." },
+      { "emoji": "🐄", "texto": "Tá começando a cair na conversa." },
+      { "emoji": "😅", "texto": "Ainda finge que não ligou pro story." }
+    ],
+    "Gado Moderado": [
+      { "emoji": "💬", "texto": "Responde rápido, mas finge que não tá afim." },
+      { "emoji": "😏", "texto": "Já manda 'kkkk' com carinho." },
+      { "emoji": "👍", "texto": "Curte todos os stories na hora." }
+    ],
+    "Gado Avançado": [
+      { "emoji": "⚡", "texto": "Já visualizou e respondeu em poucos segundos." },
+      { "emoji": "📱", "texto": "Fica online esperando mensagem." },
+      { "emoji": "🥺", "texto": "Manda áudio explicando o que quis dizer." }
+    ],
+    "Gado Profissional": [
+      { "emoji": "💘", "texto": "Já visualizou e respondeu em 0,3 segundos." },
+      { "emoji": "📱", "texto": "Fica online esperando mensagem." },
+      { "emoji": "🌹", "texto": "Manda \"bom dia\" todos os dias." }
+    ]
+  },
+  "resultadoFinal": {
+    "Anti-Gado": "🧊 Resultado: ANTI-GADO CONFIRMADO!",
+    "Gado Iniciante": "🐄 Resultado: GADO EM FORMAÇÃO!",
+    "Gado Moderado": "🐂 Resultado: GADO MODERADO DETECTADO!",
+    "Gado Avançado": "🤠 Resultado: GADO AVANÇADO NA ÁREA!",
+    "Gado Profissional": "🚨 Resultado: GADO NÍVEL MÁXIMO! 🤠🐂🟢"
+  }
+}
